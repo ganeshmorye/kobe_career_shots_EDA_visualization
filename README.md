@@ -34,30 +34,31 @@ The primary challenge to preparing the data before I could visualize the various
 
 # Visualizations
 [NBA Appearances by Kobe Bryant by Opponent](imgs/NBA_Appearances_by_Kobe_Bryant.png)
-Kobe Bryant played against 33 different opponents during his career. He missed most of the games in 2013-14 season. Some of the teams moved cities so those appearances show transition from one team to another. For eg, Vancouver Grizzlies moved from Vancouver to Memphis during the 2000-01 season.
+Kobe Bryant played against 33 different opponents during his career, and he missed most of the games in the 2013-14 season. Some of the teams moved cities, so those appearances show the transition from one team to another. E.g., Vancouver Grizzlies moved from Vancouver to Memphis during the 2000-01 season.
 
 [Different Types of Shots Made](imgs/Shots_Made_by_Kobe_Bryant.png)
-There are 57 different type of shots attributes in the dataset. This time-series bubble plot shows the different types of shots made by Kobe in every season.
-`jump_shot`, `layup_shot`, `driving_layup_shot` were his favorites. This plot all shows not all the different types of shots were being tracked when Kobe started his career.
+There are 57 different types of shots attributes in the dataset. This time-series bubble plot shows the different types of shots made by Kobe in every season.
+`jump_shot`, `layup_shot`, `driving_layup_shot` were his favorites. This plot shows that not all the different types of shots were tracked when Kobe started his career.
 
 [Combined Shot Types Made](imgs/Combined_Shots_Took_by_Kobe_Bryant.png)
-There are 6 different type of shots tracked here. This shots are combination of the different types of shots made. 
+There are six different types of shots tracked here. These shots are the combination of the different types of shots made. 
 
 [Shot Zone Range](imgs/SHOT_ZONE_RANGE_Took_by_Kobe_Bryant.png)
-This discusses the range from where the shot was taken. There are 5 different zone ranges. He was pretty consistent within 8 to 24 ft range. As expected, very few shots were took from back of the court range
+This discusses the range from where the shot was taken. There are five different zone ranges. He was pretty consistent within 8 to 24 ft range. As expected, very few shots were taken from back of the court range
 
 [Shot Zone Basic](imgs/Shot_Zone_Basic_Kobe_Bryant.png)
-This discusses the basket ball zone from where the shot was taken. There are 7 different zones being tracked. `mid-range`, `restricted_area`, and `above_the_break_3` were his favorites
+This discusses the basketball zone from where the shot was taken. 7 different zones are being tracked. `mid-range`, `restricted_area`, and `above_the_break_3` were his favorites
 
 [Shot Zone Area](imgs/Shot_Zone_Area_Kobe_Bryant.png)
-This discusses the 6 different basketball court areas from which Kobe made his shots.  Center area was his favorite and he didn't specifically prefer left or the right sides as the number of the shots he took from both sides are equally distributed
+This discusses the six different basketball court areas from which Kobe made his shots. The Center area was his favorite, and he didn't specifically prefer left, or the right sides as the number of the shots he took from both sides are equally distributed.
 
 [Shot Types - Field Goal](imgs/Shot_Type_Kobe_Bryant.png)
-Number of shots made with 2-pt and 3pt field goal has remained fairly consistent throughout his career.
+The number of shots made with 2-pt and 3pt field goals has remained relatively consistent throughout his career.
 
 [Shots by Opponents](imgs/Shots_by_Opponent.png)
-This plot shows the split of the total shots and shots made by Kobe against all of his opponents during his career. He took the most number of shots against San Antonio Spurs followed by Portland Trail Blazers. Even though the actual of number of shots vary depending upon the number of games played against an opponent, the percentage of shots made is faily consistent against alll of his opponents. The percentage of shots made are in the range of 35-40%.
+This plot shows the split of Kobe's total shots and shots against all of his opponents during his career. He took the most shots against the San Antonio Spurs, followed by the Portland Trail Blazers. Even though the actual number of shots varies depending on the number of games played against an opponent, the percentage of shots made is fairly consistent against all opponents. The percentage of shots made is in the range of 35-40%.
 
 # Conclusions
 
-We see that data wrangling and few powerful visualizations can be so effective to tell a story behind an illustrious and very long successful career. 
+We see that data wrangling and a few powerful visualizations can effectively tell a story behind an illustrious and very long successful career.
+The associated notebook has more details about the workflow and data wrangling tenchniques used in the EDA process.
