@@ -33,10 +33,10 @@ The following is a subset of specific attributes in the input :
 The primary challenge to preparing the data before I could visualize the various attributes was to convert the data from wide-form format to long-form format for the attribute of interest, primarily using regular expression and other pandas dataframe reshaping methods.
 
 # Visualizations
-[NBA Appearances by Kobe Bryant by Opponent](#imgs/NBA_Appearances_by_Kobe_Bryant.png)
+[NBA Appearances by Kobe Bryant by Opponent](imgs/NBA_Appearances_by_Kobe_Bryant.png)
 Kobe Bryant played against 33 different opponents during his career. He missed most of the games in 2013-14 season. Some of the teams moved cities so those appearances show transition from one team to another. For eg, Vancouver Grizzlies moved from Vancouver to Memphis during the 2000-01 season.
 
-[Different Types of Shots Made](#imgs/Shots_Made_by_Kobe_Bryant.png)
+[Different Types of Shots Made](imgs/Shots_Made_by_Kobe_Bryant.png)
 There are 57 different type of shots attributes in the dataset. This time-series bubble plot shows the different types of shots made by Kobe in every season.
 `jump_shot`, `layup_shot`, `driving_layup_shot` were his favorites. This plot all shows not all the different types of shots were being tracked when Kobe started his career.
 
